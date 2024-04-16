@@ -1,0 +1,5314 @@
+digraph G {
+  edge [
+    dir="none"
+    color="#cccccc"
+  ]
+  
+  node [
+    shape="box"
+    style="filled"
+    fontname="Helvetica, Arial, sans-serif"
+    width=2.5
+    fillcolor="white"
+    color="#cccccc"
+  ]
+  
+  rankdir="LR"
+  ranksep=0.4
+  splines="ortho"
+  
+  subgraph cluster_family_0 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Акакий, Аза] -> [Анфиса, Ольга]
+    # -------------------------------------------------------------------------
+    
+    union_0 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Акакий", "Аза"} -> union_0 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_0 -> siblings_0 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_0 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_0 -> {"Анфиса", "Ольга"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_1 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Демьян, Евдокия] -> [Иоанна, Прокопий]
+    # -------------------------------------------------------------------------
+    
+    union_1 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Демьян", "Евдокия"} -> union_1 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_1 -> siblings_1 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_1 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_1 -> {"Иоанна", "Прокопий"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_2 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Никодим, Улита] -> [Владимира, Ираида, Каролина, Лидия]
+    # -------------------------------------------------------------------------
+    
+    union_2 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Никодим", "Улита"} -> union_2 [
+      color="#3498db"
+      weight=2
+    ]
+    union_2 -> siblings_2 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_2 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_2 -> {"Владимира", "Ираида", "Каролина", "Лидия"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_3 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Гавриил, Ульяна] -> [Инга, Серафима]
+    # -------------------------------------------------------------------------
+    
+    union_3 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Гавриил", "Ульяна"} -> union_3 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_3 -> siblings_3 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_3 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_3 -> {"Инга", "Серафима"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_4 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Панкратий, Дарья] -> []
+    # -------------------------------------------------------------------------
+    
+    union_4 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Панкратий", "Дарья"} -> union_4 [
+      color="#34495e"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_5 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Лаврентий, Элла] -> [Фёдор, Хрисанф]
+    # -------------------------------------------------------------------------
+    
+    union_5 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Лаврентий", "Элла"} -> union_5 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_5 -> siblings_5 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_5 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_5 -> {"Фёдор", "Хрисанф"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_6 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Онисим, Васса] -> [Алиса, Семён]
+    # -------------------------------------------------------------------------
+    
+    union_6 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Онисим", "Васса"} -> union_6 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_6 -> siblings_6 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_6 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_6 -> {"Алиса", "Семён"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_7 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Семён, Лада] -> [Ростислав, Софрон]
+    # -------------------------------------------------------------------------
+    
+    union_7 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Семён", "Лада"} -> union_7 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_7 -> siblings_7 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_7 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_7 -> {"Ростислав", "Софрон"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_8 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ростислав, Александра] -> [Макар, Снежана]
+    # -------------------------------------------------------------------------
+    
+    union_8 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ростислав", "Александра"} -> union_8 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_8 -> siblings_8 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_8 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_8 -> {"Макар", "Снежана"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_9 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Богдан, Мария] -> [Протасий, Целестина]
+    # -------------------------------------------------------------------------
+    
+    union_9 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Богдан", "Мария"} -> union_9 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_9 -> siblings_9 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_9 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_9 -> {"Протасий", "Целестина"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_10 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Изот, Лариса] -> [Анфим, Владислав, Влас, Евлампия, Жанна, Зоя]
+    # -------------------------------------------------------------------------
+    
+    union_10 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Изот", "Лариса"} -> union_10 [
+      color="#3498db"
+      weight=2
+    ]
+    union_10 -> siblings_10 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_10 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_10 -> {"Анфим", "Владислав", "Влас", "Евлампия", "Жанна", "Зоя"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_11 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Анатолий, Жанна] -> [Аркадий, Надежда, Пётр, Феликс, Фёкла]
+    # -------------------------------------------------------------------------
+    
+    union_11 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Анатолий", "Жанна"} -> union_11 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_11 -> siblings_11 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_11 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_11 -> {"Аркадий", "Надежда", "Пётр", "Феликс", "Фёкла"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_12 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Куприян, Пелагея] -> [Харитон]
+    # -------------------------------------------------------------------------
+    
+    union_12 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Куприян", "Пелагея"} -> union_12 [
+      color="#34495e"
+      weight=2
+    ]
+    union_12 -> siblings_12 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_12 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_12 -> {"Харитон"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_13 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Варлам, Яна] -> [Виссарион]
+    # -------------------------------------------------------------------------
+    
+    union_13 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Варлам", "Яна"} -> union_13 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_13 -> siblings_13 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_13 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_13 -> {"Виссарион"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_14 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Фирс, Евгения] -> [Виктория, Матвей, Потап]
+    # -------------------------------------------------------------------------
+    
+    union_14 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Фирс", "Евгения"} -> union_14 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_14 -> siblings_14 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_14 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_14 -> {"Виктория", "Матвей", "Потап"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_15 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Тихон, Серафима] -> [Анастасия, Поликарп, Порфирий]
+    # -------------------------------------------------------------------------
+    
+    union_15 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Тихон", "Серафима"} -> union_15 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_15 -> siblings_15 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_15 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_15 -> {"Анастасия", "Поликарп", "Порфирий"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_16 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Митрофан, Наталья] -> [Анатолий, Изот, Любовь, Никодим, София, Трофим, Фотий]
+    # -------------------------------------------------------------------------
+    
+    union_16 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Митрофан", "Наталья"} -> union_16 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_16 -> siblings_16 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_16 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_16 -> {"Анатолий", "Изот", "Любовь", "Никодим", "София", "Трофим", "Фотий"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_17 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Еремей, Евпраксия] -> [Неонилла]
+    # -------------------------------------------------------------------------
+    
+    union_17 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Еремей", "Евпраксия"} -> union_17 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_17 -> siblings_17 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_17 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_17 -> {"Неонилла"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_18 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Мстислав, Аглая] -> []
+    # -------------------------------------------------------------------------
+    
+    union_18 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Мстислав", "Аглая"} -> union_18 [
+      color="#3498db"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_19 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Данакт, Валерия] -> [Варлам, Евстафий, Роман, Эдуард]
+    # -------------------------------------------------------------------------
+    
+    union_19 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Данакт", "Валерия"} -> union_19 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_19 -> siblings_19 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_19 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_19 -> {"Варлам", "Евстафий", "Роман", "Эдуард"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_20 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Варсонофий, Инна] -> [Валерьян, Дана, Евлалия, Инна, Фаддей]
+    # -------------------------------------------------------------------------
+    
+    union_20 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Варсонофий", "Инна"} -> union_20 [
+      color="#34495e"
+      weight=2
+    ]
+    union_20 -> siblings_20 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_20 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_20 -> {"Валерьян", "Дана", "Евлалия", "Инна", "Фаддей"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_21 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ярослав, Ярослава] -> [Акакий, Вениамин, Мирослава, Оксана, Святополк]
+    # -------------------------------------------------------------------------
+    
+    union_21 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ярослав", "Ярослава"} -> union_21 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_21 -> siblings_21 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_21 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_21 -> {"Акакий", "Вениамин", "Мирослава", "Оксана", "Святополк"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_22 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Иулиан, Евфросиния] -> [Агафья, Акиндин, Феврония]
+    # -------------------------------------------------------------------------
+    
+    union_22 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Иулиан", "Евфросиния"} -> union_22 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_22 -> siblings_22 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_22 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_22 -> {"Агафья", "Акиндин", "Феврония"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_23 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Лукий, Урсула] -> [Аглая, Аза, Федот]
+    # -------------------------------------------------------------------------
+    
+    union_23 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Лукий", "Урсула"} -> union_23 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_23 -> siblings_23 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_23 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_23 -> {"Аглая", "Аза", "Федот"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_24 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Иуда, Пинна] -> [Вадим, Иакинф]
+    # -------------------------------------------------------------------------
+    
+    union_24 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Иуда", "Пинна"} -> union_24 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_24 -> siblings_24 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_24 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_24 -> {"Вадим", "Иакинф"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_25 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Серафим, Нина] -> [Анжелика, Антонина, Давид, Сила, Фома]
+    # -------------------------------------------------------------------------
+    
+    union_25 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Серафим", "Нина"} -> union_25 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_25 -> siblings_25 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_25 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_25 -> {"Анжелика", "Антонина", "Давид", "Сила", "Фома"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_26 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Капитон, Гликерия] -> []
+    # -------------------------------------------------------------------------
+    
+    union_26 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Капитон", "Гликерия"} -> union_26 [
+      color="#3498db"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_27 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Павел, Неонилла] -> [Александра, Мария, Никанор]
+    # -------------------------------------------------------------------------
+    
+    union_27 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Павел", "Неонилла"} -> union_27 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_27 -> siblings_27 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_27 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_27 -> {"Александра", "Мария", "Никанор"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_28 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ермолай, Виктория] -> [Анна, Гликерия, Злата, Яков]
+    # -------------------------------------------------------------------------
+    
+    union_28 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ермолай", "Виктория"} -> union_28 [
+      color="#34495e"
+      weight=2
+    ]
+    union_28 -> siblings_28 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_28 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_28 -> {"Анна", "Гликерия", "Злата", "Яков"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_29 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Игорь, Людмила] -> [Созон, Станислав, Тимофей]
+    # -------------------------------------------------------------------------
+    
+    union_29 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Игорь", "Людмила"} -> union_29 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_29 -> siblings_29 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_29 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_29 -> {"Созон", "Станислав", "Тимофей"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_30 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Максим, Марфа] -> [Герасим, Паисий, Серафим]
+    # -------------------------------------------------------------------------
+    
+    union_30 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Максим", "Марфа"} -> union_30 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_30 -> siblings_30 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_30 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_30 -> {"Герасим", "Паисий", "Серафим"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_31 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Парфений, Элеонора] -> [Евфросиния, Полина, Юрий]
+    # -------------------------------------------------------------------------
+    
+    union_31 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Парфений", "Элеонора"} -> union_31 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_31 -> siblings_31 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_31 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_31 -> {"Евфросиния", "Полина", "Юрий"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_32 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Урбан, Екатерина] -> [Алина, Вавила, Лукьян, Павлина]
+    # -------------------------------------------------------------------------
+    
+    union_32 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Урбан", "Екатерина"} -> union_32 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_32 -> siblings_32 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_32 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_32 -> {"Алина", "Вавила", "Лукьян", "Павлина"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_33 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Иннокентий, Феодора] -> [Аврора, Евдокия, Игнатий, Мстислав]
+    # -------------------------------------------------------------------------
+    
+    union_33 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Иннокентий", "Феодора"} -> union_33 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_33 -> siblings_33 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_33 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_33 -> {"Аврора", "Евдокия", "Игнатий", "Мстислав"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_34 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Фаддей, Епистима] -> [Клавдия, Максим, Михаил, Родион, Савва, Филипп, Ярослав]
+    # -------------------------------------------------------------------------
+    
+    union_34 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Фаддей", "Епистима"} -> union_34 [
+      color="#3498db"
+      weight=2
+    ]
+    union_34 -> siblings_34 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_34 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_34 -> {"Клавдия", "Максим", "Михаил", "Родион", "Савва", "Филипп", "Ярослав"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_35 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Илья, Татьяна] -> [Вероника, Мина, Прохор]
+    # -------------------------------------------------------------------------
+    
+    union_35 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Илья", "Татьяна"} -> union_35 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_35 -> siblings_35 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_35 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_35 -> {"Вероника", "Мина", "Прохор"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_36 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Егор, Анжела] -> [Алла, Богдан, Светлана, Фрол]
+    # -------------------------------------------------------------------------
+    
+    union_36 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Егор", "Анжела"} -> union_36 [
+      color="#34495e"
+      weight=2
+    ]
+    union_36 -> siblings_36 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_36 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_36 -> {"Алла", "Богдан", "Светлана", "Фрол"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_37 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Макар, Раиса] -> [Галактион, Епистима, Кондрат, Феоктист]
+    # -------------------------------------------------------------------------
+    
+    union_37 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Макар", "Раиса"} -> union_37 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_37 -> siblings_37 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_37 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_37 -> {"Галактион", "Епистима", "Кондрат", "Феоктист"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_38 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Юрий, Галина] -> [Агриппина, Евпраксия]
+    # -------------------------------------------------------------------------
+    
+    union_38 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Юрий", "Галина"} -> union_38 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_38 -> siblings_38 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_38 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_38 -> {"Агриппина", "Евпраксия"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_39 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Игнатий, Антонина] -> [Алевтина]
+    # -------------------------------------------------------------------------
+    
+    union_39 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Игнатий", "Антонина"} -> union_39 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_39 -> siblings_39 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_39 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_39 -> {"Алевтина"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_40 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Фома, Варвара] -> [Артур, Викентий, Елена, Савелий, Фирс]
+    # -------------------------------------------------------------------------
+    
+    union_40 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Фома", "Варвара"} -> union_40 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_40 -> siblings_40 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_40 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_40 -> {"Артур", "Викентий", "Елена", "Савелий", "Фирс"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_41 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Геннадий, Ираида] -> [Константин, Раиса, Сильвестр]
+    # -------------------------------------------------------------------------
+    
+    union_41 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Геннадий", "Ираида"} -> union_41 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_41 -> siblings_41 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_41 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_41 -> {"Константин", "Раиса", "Сильвестр"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_42 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Влас, Римма] -> [Дмитрий, Зинаида, Наум, Никифор, Юлиан]
+    # -------------------------------------------------------------------------
+    
+    union_42 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Влас", "Римма"} -> union_42 [
+      color="#3498db"
+      weight=2
+    ]
+    union_42 -> siblings_42 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_42 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_42 -> {"Дмитрий", "Зинаида", "Наум", "Никифор", "Юлиан"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_43 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Виталий, Вера] -> [Анжела, Онисим, Рада]
+    # -------------------------------------------------------------------------
+    
+    union_43 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Виталий", "Вера"} -> union_43 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_43 -> siblings_43 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_43 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_43 -> {"Анжела", "Онисим", "Рада"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_44 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Наум, Валентина] -> [Демьян, Мелентий, Тит]
+    # -------------------------------------------------------------------------
+    
+    union_44 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Наум", "Валентина"} -> union_44 [
+      color="#34495e"
+      weight=2
+    ]
+    union_44 -> siblings_44 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_44 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_44 -> {"Демьян", "Мелентий", "Тит"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_45 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Емельян, Ксения] -> [Инесса, Иуда, Кронид, Леонтий, Филат, Юлия]
+    # -------------------------------------------------------------------------
+    
+    union_45 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Емельян", "Ксения"} -> union_45 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_45 -> siblings_45 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_45 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_45 -> {"Инесса", "Иуда", "Кронид", "Леонтий", "Филат", "Юлия"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_46 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Корнилий, Снежана] -> [Ангелина, Владимир, Вячеслав, Иулиан, Лукий, Пинна]
+    # -------------------------------------------------------------------------
+    
+    union_46 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Корнилий", "Снежана"} -> union_46 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_46 -> siblings_46 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_46 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_46 -> {"Ангелина", "Владимир", "Вячеслав", "Иулиан", "Лукий", "Пинна"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_47 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Разумник, Елизавета] -> [Ксения, Парфений, Руслан]
+    # -------------------------------------------------------------------------
+    
+    union_47 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Разумник", "Елизавета"} -> union_47 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_47 -> siblings_47 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_47 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_47 -> {"Ксения", "Парфений", "Руслан"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_48 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Кир, Сусанна] -> []
+    # -------------------------------------------------------------------------
+    
+    union_48 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Кир", "Сусанна"} -> union_48 [
+      color="#1abc9c"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_49 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Лука, Павлина] -> [Агапит, Геннадий, Ермолай, Ефим]
+    # -------------------------------------------------------------------------
+    
+    union_49 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Лука", "Павлина"} -> union_49 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_49 -> siblings_49 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_49 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_49 -> {"Агапит", "Геннадий", "Ермолай", "Ефим"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_50 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Михаил, Акулина] -> [Логгин, Сусанна]
+    # -------------------------------------------------------------------------
+    
+    union_50 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Михаил", "Акулина"} -> union_50 [
+      color="#3498db"
+      weight=2
+    ]
+    union_50 -> siblings_50 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_50 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_50 -> {"Логгин", "Сусанна"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_51 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Кирилл, Инга] -> [Кузьма, Самуил]
+    # -------------------------------------------------------------------------
+    
+    union_51 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Кирилл", "Инга"} -> union_51 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_51 -> siblings_51 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_51 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_51 -> {"Кузьма", "Самуил"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_52 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Лукьян, Эмма] -> [Евгений, Никон, Онуфрий, Пафнутий, Сергей, Таисия]
+    # -------------------------------------------------------------------------
+    
+    union_52 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Лукьян", "Эмма"} -> union_52 [
+      color="#34495e"
+      weight=2
+    ]
+    union_52 -> siblings_52 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_52 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_52 -> {"Евгений", "Никон", "Онуфрий", "Пафнутий", "Сергей", "Таисия"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_53 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Назар, Кира] -> [Артемий, Гордей, Якун]
+    # -------------------------------------------------------------------------
+    
+    union_53 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Назар", "Кира"} -> union_53 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_53 -> siblings_53 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_53 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_53 -> {"Артемий", "Гордей", "Якун"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_54 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Евгений, Надежда] -> [Екатерина]
+    # -------------------------------------------------------------------------
+    
+    union_54 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Евгений", "Надежда"} -> union_54 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_54 -> siblings_54 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_54 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_54 -> {"Екатерина"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_55 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Лев, Юлия] -> [Кирилл, Лада, Матрёна, Татьяна]
+    # -------------------------------------------------------------------------
+    
+    union_55 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Лев", "Юлия"} -> union_55 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_55 -> siblings_55 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_55 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_55 -> {"Кирилл", "Лада", "Матрёна", "Татьяна"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_56 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Алексей, Ия] -> [Платон]
+    # -------------------------------------------------------------------------
+    
+    union_56 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Алексей", "Ия"} -> union_56 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_56 -> siblings_56 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_56 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_56 -> {"Платон"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_57 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Роман, Нонна] -> [Альберт, Вера, Зиновий, Марфа, Регина]
+    # -------------------------------------------------------------------------
+    
+    union_57 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Роман", "Нонна"} -> union_57 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_57 -> siblings_57 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_57 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_57 -> {"Альберт", "Вера", "Зиновий", "Марфа", "Регина"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_58 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Валерьян, Глафира] -> [Венедикт, Глафира, Октябрина, Ульяна]
+    # -------------------------------------------------------------------------
+    
+    union_58 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Валерьян", "Глафира"} -> union_58 [
+      color="#3498db"
+      weight=2
+    ]
+    union_58 -> siblings_58 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_58 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_58 -> {"Венедикт", "Глафира", "Октябрина", "Ульяна"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_59 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Пантелеймон, Полина] -> [Георгий, Леонид, Назар, Фока]
+    # -------------------------------------------------------------------------
+    
+    union_59 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Пантелеймон", "Полина"} -> union_59 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_59 -> siblings_59 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_59 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_59 -> {"Георгий", "Леонид", "Назар", "Фока"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_60 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Зиновий, София] -> [Ярослава]
+    # -------------------------------------------------------------------------
+    
+    union_60 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Зиновий", "София"} -> union_60 [
+      color="#34495e"
+      weight=2
+    ]
+    union_60 -> siblings_60 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_60 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_60 -> {"Ярослава"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_61 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Фрол, Дана] -> [Святослав]
+    # -------------------------------------------------------------------------
+    
+    union_61 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Фрол", "Дана"} -> union_61 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_61 -> siblings_61 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_61 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_61 -> {"Святослав"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_62 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Мирослав, Оксана] -> [Александр, Дарья, Денис, Тимур]
+    # -------------------------------------------------------------------------
+    
+    union_62 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Мирослав", "Оксана"} -> union_62 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_62 -> siblings_62 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_62 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_62 -> {"Александр", "Дарья", "Денис", "Тимур"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_63 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Авдей, Анастасия] -> [Марина, Урбан]
+    # -------------------------------------------------------------------------
+    
+    union_63 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Авдей", "Анастасия"} -> union_63 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_63 -> siblings_63 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_63 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_63 -> {"Марина", "Урбан"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_64 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Якун, Карина] -> [Ириней, Улита]
+    # -------------------------------------------------------------------------
+    
+    union_64 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Якун", "Карина"} -> union_64 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_64 -> siblings_64 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_64 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_64 -> {"Ириней", "Улита"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_65 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Никита, Любовь] -> [Клара, Лев, Филимон]
+    # -------------------------------------------------------------------------
+    
+    union_65 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Никита", "Любовь"} -> union_65 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_65 -> siblings_65 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_65 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_65 -> {"Клара", "Лев", "Филимон"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_66 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Аристарх, Анна] -> [Авксентий, Валерий]
+    # -------------------------------------------------------------------------
+    
+    union_66 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Аристарх", "Анна"} -> union_66 [
+      color="#3498db"
+      weight=2
+    ]
+    union_66 -> siblings_66 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_66 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_66 -> {"Авксентий", "Валерий"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_67 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Константин, Зоя] -> [Авдей, Илья, Капитолина, Элеонора]
+    # -------------------------------------------------------------------------
+    
+    union_67 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Константин", "Зоя"} -> union_67 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_67 -> siblings_67 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_67 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_67 -> {"Авдей", "Илья", "Капитолина", "Элеонора"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_68 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Яков, Клавдия] -> [Аристарх, Валентин, Лука, Тамара]
+    # -------------------------------------------------------------------------
+    
+    union_68 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Яков", "Клавдия"} -> union_68 [
+      color="#34495e"
+      weight=2
+    ]
+    union_68 -> siblings_68 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_68 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_68 -> {"Аристарх", "Валентин", "Лука", "Тамара"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_69 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Никон, Мирослава] -> [Акулина, Германн, Даниил, Игорь]
+    # -------------------------------------------------------------------------
+    
+    union_69 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Никон", "Мирослава"} -> union_69 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_69 -> siblings_69 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_69 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_69 -> {"Акулина", "Германн", "Даниил", "Игорь"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_70 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Савва, Агафья] -> [Борис]
+    # -------------------------------------------------------------------------
+    
+    union_70 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Савва", "Агафья"} -> union_70 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_70 -> siblings_70 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_70 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_70 -> {"Борис"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_71 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Сила, Олимпиада] -> [Герман, Пелагея]
+    # -------------------------------------------------------------------------
+    
+    union_71 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Сила", "Олимпиада"} -> union_71 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_71 -> siblings_71 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_71 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_71 -> {"Герман", "Пелагея"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_72 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Виктор, Инесса] -> [Маргарита, Марк]
+    # -------------------------------------------------------------------------
+    
+    union_72 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Виктор", "Инесса"} -> union_72 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_72 -> siblings_72 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_72 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_72 -> {"Маргарита", "Марк"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_73 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Гордей, Алевтина] -> [Виталий]
+    # -------------------------------------------------------------------------
+    
+    union_73 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Гордей", "Алевтина"} -> union_73 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_73 -> siblings_73 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_73 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_73 -> {"Виталий"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_74 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Борис, Иоанна] -> [Архипп, Яна]
+    # -------------------------------------------------------------------------
+    
+    union_74 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Борис", "Иоанна"} -> union_74 [
+      color="#3498db"
+      weight=2
+    ]
+    union_74 -> siblings_74 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_74 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_74 -> {"Архипп", "Яна"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_75 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ерофей, Ольга] -> [Аникита, Гавриил, Мамонт]
+    # -------------------------------------------------------------------------
+    
+    union_75 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ерофей", "Ольга"} -> union_75 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_75 -> siblings_75 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_75 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_75 -> {"Аникита", "Гавриил", "Мамонт"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_76 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Пётр, Нинель] -> []
+    # -------------------------------------------------------------------------
+    
+    union_76 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Пётр", "Нинель"} -> union_76 [
+      color="#34495e"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_77 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Мамонт, Матрёна] -> [Олимпиада, Фаина]
+    # -------------------------------------------------------------------------
+    
+    union_77 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Мамонт", "Матрёна"} -> union_77 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_77 -> siblings_77 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_77 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_77 -> {"Олимпиада", "Фаина"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_78 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Георгий, Рада] -> [Аделаида, Аникий, Емельян, Ия, Митрофан, Пров]
+    # -------------------------------------------------------------------------
+    
+    union_78 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Георгий", "Рада"} -> union_78 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_78 -> siblings_78 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_78 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_78 -> {"Аделаида", "Аникий", "Емельян", "Ия", "Митрофан", "Пров"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_79 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Кондрат, Анфиса] -> [Ерофей, Иннокентий, Карина, Ким, Федосей]
+    # -------------------------------------------------------------------------
+    
+    union_79 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Кондрат", "Анфиса"} -> union_79 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_79 -> siblings_79 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_79 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_79 -> {"Ерофей", "Иннокентий", "Карина", "Ким", "Федосей"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_80 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Дмитрий, Фёкла] -> [Варвара, Евграф, Магистриан, Христофор]
+    # -------------------------------------------------------------------------
+    
+    union_80 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Дмитрий", "Фёкла"} -> union_80 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_80 -> siblings_80 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_80 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_80 -> {"Варвара", "Евграф", "Магистриан", "Христофор"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_81 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Альберт, Ирина] -> [Арсений, Глеб, Данакт, Урсула]
+    # -------------------------------------------------------------------------
+    
+    union_81 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Альберт", "Ирина"} -> union_81 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_81 -> siblings_81 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_81 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_81 -> {"Арсений", "Глеб", "Данакт", "Урсула"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_82 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Даниил, Алина] -> [Милица, Тарас]
+    # -------------------------------------------------------------------------
+    
+    union_82 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Даниил", "Алина"} -> union_82 [
+      color="#3498db"
+      weight=2
+    ]
+    union_82 -> siblings_82 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_82 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_82 -> {"Милица", "Тарас"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_83 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Геласий, Алиса] -> [Лариса, Тихон]
+    # -------------------------------------------------------------------------
+    
+    union_83 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Геласий", "Алиса"} -> union_83 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_83 -> siblings_83 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_83 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_83 -> {"Лариса", "Тихон"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_84 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Поликарп, Алла] -> [Евдоким, Исаак, Никандр]
+    # -------------------------------------------------------------------------
+    
+    union_84 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Поликарп", "Алла"} -> union_84 [
+      color="#34495e"
+      weight=2
+    ]
+    union_84 -> siblings_84 [
+      color="#34495e"
+      weight=3
+    ]
+    siblings_84 [
+      fillcolor="#34495e"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_84 -> {"Евдоким", "Исаак", "Никандр"} [
+      color="#34495e"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_85 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Антонин, Марина] -> [Артём, Ермиония, Нина, Степан, Трифон, Эраст]
+    # -------------------------------------------------------------------------
+    
+    union_85 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Антонин", "Марина"} -> union_85 [
+      color="#f1c40f"
+      weight=2
+    ]
+    union_85 -> siblings_85 [
+      color="#f1c40f"
+      weight=3
+    ]
+    siblings_85 [
+      fillcolor="#f1c40f"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_85 -> {"Артём", "Ермиония", "Нина", "Степан", "Трифон", "Эраст"} [
+      color="#f1c40f"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_86 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Евсей, Зинаида] -> [Донат, Капитон]
+    # -------------------------------------------------------------------------
+    
+    union_86 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Евсей", "Зинаида"} -> union_86 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_86 -> siblings_86 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_86 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_86 -> {"Донат", "Капитон"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_87 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Мина, Вероника] -> []
+    # -------------------------------------------------------------------------
+    
+    union_87 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Мина", "Вероника"} -> union_87 [
+      color="#e74c3c"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_88 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Герман, Фаина] -> [Андрей, Климент, Лаврентий, Юстин]
+    # -------------------------------------------------------------------------
+    
+    union_88 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Герман", "Фаина"} -> union_88 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_88 -> siblings_88 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_88 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_88 -> {"Андрей", "Климент", "Лаврентий", "Юстин"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_89 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ефрем, Евлалия] -> [Елизавета, Кира, Пахомий]
+    # -------------------------------------------------------------------------
+    
+    union_89 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ефрем", "Евлалия"} -> union_89 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_89 -> siblings_89 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_89 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_89 -> {"Елизавета", "Кира", "Пахомий"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_90 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Варфоломей, Милица] -> [Агафон, Валентина, Геласий, Еремей, Олег, Эмма]
+    # -------------------------------------------------------------------------
+    
+    union_90 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Варфоломей", "Милица"} -> union_90 [
+      color="#3498db"
+      weight=2
+    ]
+    union_90 -> siblings_90 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_90 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_90 -> {"Агафон", "Валентина", "Геласий", "Еремей", "Олег", "Эмма"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_91 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ждан, Евлампия] -> []
+    # -------------------------------------------------------------------------
+    
+    union_91 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ждан", "Евлампия"} -> union_91 [
+      color="#9b59b6"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_92 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Конон, Каролина] -> []
+    # -------------------------------------------------------------------------
+    
+    union_92 [
+      fillcolor="#34495e"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Конон", "Каролина"} -> union_92 [
+      color="#34495e"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_93 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Андрей, Агриппина] -> []
+    # -------------------------------------------------------------------------
+    
+    union_93 [
+      fillcolor="#f1c40f"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Андрей", "Агриппина"} -> union_93 [
+      color="#f1c40f"
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_94 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Порфирий, Ермиония] -> [Иван, Нонна, Спиридон]
+    # -------------------------------------------------------------------------
+    
+    union_94 [
+      fillcolor="#e67e22"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Порфирий", "Ермиония"} -> union_94 [
+      color="#e67e22"
+      weight=2
+    ]
+    union_94 -> siblings_94 [
+      color="#e67e22"
+      weight=3
+    ]
+    siblings_94 [
+      fillcolor="#e67e22"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_94 -> {"Иван", "Нонна", "Спиридон"} [
+      color="#e67e22"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_95 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Евстафий, Феврония] -> [Василиса]
+    # -------------------------------------------------------------------------
+    
+    union_95 [
+      fillcolor="#e74c3c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Евстафий", "Феврония"} -> union_95 [
+      color="#e74c3c"
+      weight=2
+    ]
+    union_95 -> siblings_95 [
+      color="#e74c3c"
+      weight=3
+    ]
+    siblings_95 [
+      fillcolor="#e74c3c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_95 -> {"Василиса"} [
+      color="#e74c3c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_96 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Ираклий, Клара] -> [Афанасий, Людмила, Элла]
+    # -------------------------------------------------------------------------
+    
+    union_96 [
+      fillcolor="#1abc9c"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Ираклий", "Клара"} -> union_96 [
+      color="#1abc9c"
+      weight=2
+    ]
+    union_96 -> siblings_96 [
+      color="#1abc9c"
+      weight=3
+    ]
+    siblings_96 [
+      fillcolor="#1abc9c"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_96 -> {"Афанасий", "Людмила", "Элла"} [
+      color="#1abc9c"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_97 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Герасим, Таисия] -> [Антонин, Григорий]
+    # -------------------------------------------------------------------------
+    
+    union_97 [
+      fillcolor="#2ecc71"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Герасим", "Таисия"} -> union_97 [
+      color="#2ecc71"
+      weight=2
+    ]
+    union_97 -> siblings_97 [
+      color="#2ecc71"
+      weight=3
+    ]
+    siblings_97 [
+      fillcolor="#2ecc71"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_97 -> {"Антонин", "Григорий"} [
+      color="#2ecc71"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_98 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Денис, Лидия] -> [Евсей, Ирина, Кир, Мирослав, Никита]
+    # -------------------------------------------------------------------------
+    
+    union_98 [
+      fillcolor="#3498db"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Денис", "Лидия"} -> union_98 [
+      color="#3498db"
+      weight=2
+    ]
+    union_98 -> siblings_98 [
+      color="#3498db"
+      weight=3
+    ]
+    siblings_98 [
+      fillcolor="#3498db"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_98 -> {"Евсей", "Ирина", "Кир", "Мирослав", "Никита"} [
+      color="#3498db"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  
+  subgraph cluster_family_99 {
+    label=""
+    style="invis"
+    margin=0
+    
+    # Family [Олег, Тамара] -> [Алексей, Василий]
+    # -------------------------------------------------------------------------
+    
+    union_99 [
+      fillcolor="#9b59b6"
+      shape="circle"
+      style="filled"
+      penwidth=1
+      color="white"
+      label=""
+      height=0.1
+      width=0.1
+    ]
+    
+    {"Олег", "Тамара"} -> union_99 [
+      color="#9b59b6"
+      weight=2
+    ]
+    union_99 -> siblings_99 [
+      color="#9b59b6"
+      weight=3
+    ]
+    siblings_99 [
+      fillcolor="#9b59b6"
+      shape="box"
+      style="filled"
+      label=""
+      height=0.005
+      penwidth=0
+      width=0.1
+    ]
+    siblings_99 -> {"Алексей", "Василий"} [
+      color="#9b59b6"
+      dir="forward"
+      arrowhead="tee"
+      arrowsize=2
+      weight=2
+    ]
+  }
+  "Авдей" [
+    label="Авдей"
+  ]
+  "Авксентий" [
+    label="Авксентий"
+  ]
+  "Аврора" [
+    label="Аврора"
+  ]
+  "Агапит" [
+    label="Агапит"
+  ]
+  "Агафон" [
+    label="Агафон"
+  ]
+  "Агафья" [
+    label="Агафья"
+  ]
+  "Аглая" [
+    label="Аглая"
+  ]
+  "Агриппина" [
+    label="Агриппина"
+  ]
+  "Аделаида" [
+    label="Аделаида"
+  ]
+  "Аза" [
+    label="Аза"
+  ]
+  "Акакий" [
+    label="Акакий"
+  ]
+  "Акиндин" [
+    label="Акиндин"
+  ]
+  "Акулина" [
+    label="Акулина"
+  ]
+  "Алевтина" [
+    label="Алевтина"
+  ]
+  "Александр" [
+    label="Александр"
+  ]
+  "Александра" [
+    label="Александра"
+  ]
+  "Алексей" [
+    label="Алексей"
+  ]
+  "Алина" [
+    label="Алина"
+  ]
+  "Алиса" [
+    label="Алиса"
+  ]
+  "Алла" [
+    label="Алла"
+  ]
+  "Альберт" [
+    label="Альберт"
+  ]
+  "Анастасия" [
+    label="Анастасия"
+  ]
+  "Анатолий" [
+    label="Анатолий"
+  ]
+  "Ангелина" [
+    label="Ангелина"
+  ]
+  "Андрей" [
+    label="Андрей"
+  ]
+  "Анжела" [
+    label="Анжела"
+  ]
+  "Анжелика" [
+    label="Анжелика"
+  ]
+  "Аникий" [
+    label="Аникий"
+  ]
+  "Аникита" [
+    label="Аникита"
+  ]
+  "Анна" [
+    label="Анна"
+  ]
+  "Антон" [
+    label="Антон"
+  ]
+  "Антонин" [
+    label="Антонин"
+  ]
+  "Антонина" [
+    label="Антонина"
+  ]
+  "Анфим" [
+    label="Анфим"
+  ]
+  "Анфиса" [
+    label="Анфиса"
+  ]
+  "Аристарх" [
+    label="Аристарх"
+  ]
+  "Аркадий" [
+    label="Аркадий"
+  ]
+  "Арсений" [
+    label="Арсений"
+  ]
+  "Артемий" [
+    label="Артемий"
+  ]
+  "Артур" [
+    label="Артур"
+  ]
+  "Артём" [
+    label="Артём"
+  ]
+  "Архипп" [
+    label="Архипп"
+  ]
+  "Афанасий" [
+    label="Афанасий"
+  ]
+  "Богдан" [
+    label="Богдан"
+  ]
+  "Борис" [
+    label="Борис"
+  ]
+  "Вавила" [
+    label="Вавила"
+  ]
+  "Вадим" [
+    label="Вадим"
+  ]
+  "Валентин" [
+    label="Валентин"
+  ]
+  "Валентина" [
+    label="Валентина"
+  ]
+  "Валерий" [
+    label="Валерий"
+  ]
+  "Валерия" [
+    label="Валерия"
+  ]
+  "Валерьян" [
+    label="Валерьян"
+  ]
+  "Варвара" [
+    label="Варвара"
+  ]
+  "Варлам" [
+    label="Варлам"
+  ]
+  "Варсонофий" [
+    label="Варсонофий"
+  ]
+  "Варфоломей" [
+    label="Варфоломей"
+  ]
+  "Василий" [
+    label="Василий"
+  ]
+  "Василиса" [
+    label="Василиса"
+  ]
+  "Васса" [
+    label="Васса"
+  ]
+  "Венедикт" [
+    label="Венедикт"
+  ]
+  "Вениамин" [
+    label="Вениамин"
+  ]
+  "Вера" [
+    label="Вера"
+  ]
+  "Вероника" [
+    label="Вероника"
+  ]
+  "Викентий" [
+    label="Викентий"
+  ]
+  "Виктор" [
+    label="Виктор"
+  ]
+  "Виктория" [
+    label="Виктория"
+  ]
+  "Виссарион" [
+    label="Виссарион"
+  ]
+  "Виталий" [
+    label="Виталий"
+  ]
+  "Владимир" [
+    label="Владимир"
+  ]
+  "Владимира" [
+    label="Владимира"
+  ]
+  "Владислав" [
+    label="Владислав"
+  ]
+  "Владлен" [
+    label="Владлен"
+  ]
+  "Влас" [
+    label="Влас"
+  ]
+  "Всеволод" [
+    label="Всеволод"
+  ]
+  "Вячеслав" [
+    label="Вячеслав"
+  ]
+  "Гавриил" [
+    label="Гавриил"
+  ]
+  "Галактион" [
+    label="Галактион"
+  ]
+  "Галина" [
+    label="Галина"
+  ]
+  "Геласий" [
+    label="Геласий"
+  ]
+  "Геннадий" [
+    label="Геннадий"
+  ]
+  "Георгий" [
+    label="Георгий"
+  ]
+  "Герасим" [
+    label="Герасим"
+  ]
+  "Герман" [
+    label="Герман"
+  ]
+  "Германн" [
+    label="Германн"
+  ]
+  "Глафира" [
+    label="Глафира"
+  ]
+  "Глеб" [
+    label="Глеб"
+  ]
+  "Гликерия" [
+    label="Гликерия"
+  ]
+  "Гордей" [
+    label="Гордей"
+  ]
+  "Григорий" [
+    label="Григорий"
+  ]
+  "Давид" [
+    label="Давид"
+  ]
+  "Дана" [
+    label="Дана"
+  ]
+  "Данакт" [
+    label="Данакт"
+  ]
+  "Даниил" [
+    label="Даниил"
+  ]
+  "Дарья" [
+    label="Дарья"
+  ]
+  "Демид" [
+    label="Демид"
+  ]
+  "Демьян" [
+    label="Демьян"
+  ]
+  "Денис" [
+    label="Денис"
+  ]
+  "Дмитрий" [
+    label="Дмитрий"
+  ]
+  "Донат" [
+    label="Донат"
+  ]
+  "Евгений" [
+    label="Евгений"
+  ]
+  "Евгения" [
+    label="Евгения"
+  ]
+  "Евграф" [
+    label="Евграф"
+  ]
+  "Евдоким" [
+    label="Евдоким"
+  ]
+  "Евдокия" [
+    label="Евдокия"
+  ]
+  "Евлалия" [
+    label="Евлалия"
+  ]
+  "Евлампия" [
+    label="Евлампия"
+  ]
+  "Евпраксия" [
+    label="Евпраксия"
+  ]
+  "Евсей" [
+    label="Евсей"
+  ]
+  "Евстафий" [
+    label="Евстафий"
+  ]
+  "Евфросиния" [
+    label="Евфросиния"
+  ]
+  "Егор" [
+    label="Егор"
+  ]
+  "Екатерина" [
+    label="Екатерина"
+  ]
+  "Елена" [
+    label="Елена"
+  ]
+  "Елизавета" [
+    label="Елизавета"
+  ]
+  "Емельян" [
+    label="Емельян"
+  ]
+  "Епистима" [
+    label="Епистима"
+  ]
+  "Еремей" [
+    label="Еремей"
+  ]
+  "Ермиония" [
+    label="Ермиония"
+  ]
+  "Ермолай" [
+    label="Ермолай"
+  ]
+  "Ерофей" [
+    label="Ерофей"
+  ]
+  "Ефим" [
+    label="Ефим"
+  ]
+  "Ефрем" [
+    label="Ефрем"
+  ]
+  "Жанна" [
+    label="Жанна"
+  ]
+  "Ждан" [
+    label="Ждан"
+  ]
+  "Зинаида" [
+    label="Зинаида"
+  ]
+  "Зиновий" [
+    label="Зиновий"
+  ]
+  "Злата" [
+    label="Злата"
+  ]
+  "Зоя" [
+    label="Зоя"
+  ]
+  "Иакинф" [
+    label="Иакинф"
+  ]
+  "Иван" [
+    label="Иван"
+  ]
+  "Игнатий" [
+    label="Игнатий"
+  ]
+  "Игорь" [
+    label="Игорь"
+  ]
+  "Изот" [
+    label="Изот"
+  ]
+  "Илья" [
+    label="Илья"
+  ]
+  "Инга" [
+    label="Инга"
+  ]
+  "Инесса" [
+    label="Инесса"
+  ]
+  "Инна" [
+    label="Инна"
+  ]
+  "Иннокентий" [
+    label="Иннокентий"
+  ]
+  "Иоанна" [
+    label="Иоанна"
+  ]
+  "Ираида" [
+    label="Ираида"
+  ]
+  "Ираклий" [
+    label="Ираклий"
+  ]
+  "Ирина" [
+    label="Ирина"
+  ]
+  "Ириней" [
+    label="Ириней"
+  ]
+  "Исаак" [
+    label="Исаак"
+  ]
+  "Исидор" [
+    label="Исидор"
+  ]
+  "Иуда" [
+    label="Иуда"
+  ]
+  "Иулиан" [
+    label="Иулиан"
+  ]
+  "Ия" [
+    label="Ия"
+  ]
+  "Капитолина" [
+    label="Капитолина"
+  ]
+  "Капитон" [
+    label="Капитон"
+  ]
+  "Карина" [
+    label="Карина"
+  ]
+  "Каролина" [
+    label="Каролина"
+  ]
+  "Ким" [
+    label="Ким"
+  ]
+  "Кир" [
+    label="Кир"
+  ]
+  "Кира" [
+    label="Кира"
+  ]
+  "Кирилл" [
+    label="Кирилл"
+  ]
+  "Клавдия" [
+    label="Клавдия"
+  ]
+  "Клара" [
+    label="Клара"
+  ]
+  "Климент" [
+    label="Климент"
+  ]
+  "Кондрат" [
+    label="Кондрат"
+  ]
+  "Конон" [
+    label="Конон"
+  ]
+  "Константин" [
+    label="Константин"
+  ]
+  "Корнилий" [
+    label="Корнилий"
+  ]
+  "Кронид" [
+    label="Кронид"
+  ]
+  "Ксения" [
+    label="Ксения"
+  ]
+  "Кузьма" [
+    label="Кузьма"
+  ]
+  "Куприян" [
+    label="Куприян"
+  ]
+  "Лаврентий" [
+    label="Лаврентий"
+  ]
+  "Лада" [
+    label="Лада"
+  ]
+  "Лариса" [
+    label="Лариса"
+  ]
+  "Лев" [
+    label="Лев"
+  ]
+  "Леонид" [
+    label="Леонид"
+  ]
+  "Леонтий" [
+    label="Леонтий"
+  ]
+  "Лидия" [
+    label="Лидия"
+  ]
+  "Логгин" [
+    label="Логгин"
+  ]
+  "Лука" [
+    label="Лука"
+  ]
+  "Лукий" [
+    label="Лукий"
+  ]
+  "Лукьян" [
+    label="Лукьян"
+  ]
+  "Любовь" [
+    label="Любовь"
+  ]
+  "Людмила" [
+    label="Людмила"
+  ]
+  "Магистриан" [
+    label="Магистриан"
+  ]
+  "Макар" [
+    label="Макар"
+  ]
+  "Максим" [
+    label="Максим"
+  ]
+  "Мамонт" [
+    label="Мамонт"
+  ]
+  "Маргарита" [
+    label="Маргарита"
+  ]
+  "Марина" [
+    label="Марина"
+  ]
+  "Мария" [
+    label="Мария"
+  ]
+  "Марк" [
+    label="Марк"
+  ]
+  "Мартын" [
+    label="Мартын"
+  ]
+  "Марфа" [
+    label="Марфа"
+  ]
+  "Матвей" [
+    label="Матвей"
+  ]
+  "Матрёна" [
+    label="Матрёна"
+  ]
+  "Мелентий" [
+    label="Мелентий"
+  ]
+  "Милица" [
+    label="Милица"
+  ]
+  "Мина" [
+    label="Мина"
+  ]
+  "Мирослав" [
+    label="Мирослав"
+  ]
+  "Мирослава" [
+    label="Мирослава"
+  ]
+  "Митрофан" [
+    label="Митрофан"
+  ]
+  "Михаил" [
+    label="Михаил"
+  ]
+  "Мстислав" [
+    label="Мстислав"
+  ]
+  "Надежда" [
+    label="Надежда"
+  ]
+  "Назар" [
+    label="Назар"
+  ]
+  "Наталья" [
+    label="Наталья"
+  ]
+  "Наум" [
+    label="Наум"
+  ]
+  "Неонилла" [
+    label="Неонилла"
+  ]
+  "Нестор" [
+    label="Нестор"
+  ]
+  "Никандр" [
+    label="Никандр"
+  ]
+  "Никанор" [
+    label="Никанор"
+  ]
+  "Никита" [
+    label="Никита"
+  ]
+  "Никифор" [
+    label="Никифор"
+  ]
+  "Никодим" [
+    label="Никодим"
+  ]
+  "Николай" [
+    label="Николай"
+  ]
+  "Никон" [
+    label="Никон"
+  ]
+  "Нина" [
+    label="Нина"
+  ]
+  "Нинель" [
+    label="Нинель"
+  ]
+  "Нонна" [
+    label="Нонна"
+  ]
+  "Оксана" [
+    label="Оксана"
+  ]
+  "Октябрина" [
+    label="Октябрина"
+  ]
+  "Олег" [
+    label="Олег"
+  ]
+  "Олимпиада" [
+    label="Олимпиада"
+  ]
+  "Ольга" [
+    label="Ольга"
+  ]
+  "Онисим" [
+    label="Онисим"
+  ]
+  "Онуфрий" [
+    label="Онуфрий"
+  ]
+  "Павел" [
+    label="Павел"
+  ]
+  "Павлина" [
+    label="Павлина"
+  ]
+  "Паисий" [
+    label="Паисий"
+  ]
+  "Панкратий" [
+    label="Панкратий"
+  ]
+  "Пантелеймон" [
+    label="Пантелеймон"
+  ]
+  "Парфений" [
+    label="Парфений"
+  ]
+  "Пафнутий" [
+    label="Пафнутий"
+  ]
+  "Пахомий" [
+    label="Пахомий"
+  ]
+  "Пелагея" [
+    label="Пелагея"
+  ]
+  "Пинна" [
+    label="Пинна"
+  ]
+  "Платон" [
+    label="Платон"
+  ]
+  "Поликарп" [
+    label="Поликарп"
+  ]
+  "Полина" [
+    label="Полина"
+  ]
+  "Порфирий" [
+    label="Порфирий"
+  ]
+  "Потап" [
+    label="Потап"
+  ]
+  "Прасковья" [
+    label="Прасковья"
+  ]
+  "Пров" [
+    label="Пров"
+  ]
+  "Прокопий" [
+    label="Прокопий"
+  ]
+  "Протасий" [
+    label="Протасий"
+  ]
+  "Прохор" [
+    label="Прохор"
+  ]
+  "Пётр" [
+    label="Пётр"
+  ]
+  "Рада" [
+    label="Рада"
+  ]
+  "Разумник" [
+    label="Разумник"
+  ]
+  "Раиса" [
+    label="Раиса"
+  ]
+  "Регина" [
+    label="Регина"
+  ]
+  "Римма" [
+    label="Римма"
+  ]
+  "Рогнеда" [
+    label="Рогнеда"
+  ]
+  "Родион" [
+    label="Родион"
+  ]
+  "Роман" [
+    label="Роман"
+  ]
+  "Ростислав" [
+    label="Ростислав"
+  ]
+  "Руслан" [
+    label="Руслан"
+  ]
+  "Савва" [
+    label="Савва"
+  ]
+  "Савелий" [
+    label="Савелий"
+  ]
+  "Самуил" [
+    label="Самуил"
+  ]
+  "Светлана" [
+    label="Светлана"
+  ]
+  "Святополк" [
+    label="Святополк"
+  ]
+  "Святослав" [
+    label="Святослав"
+  ]
+  "Севастьян" [
+    label="Севастьян"
+  ]
+  "Семён" [
+    label="Семён"
+  ]
+  "Серафим" [
+    label="Серафим"
+  ]
+  "Серафима" [
+    label="Серафима"
+  ]
+  "Сергей" [
+    label="Сергей"
+  ]
+  "Сила" [
+    label="Сила"
+  ]
+  "Сильвестр" [
+    label="Сильвестр"
+  ]
+  "Снежана" [
+    label="Снежана"
+  ]
+  "Созон" [
+    label="Созон"
+  ]
+  "София" [
+    label="София"
+  ]
+  "Софрон" [
+    label="Софрон"
+  ]
+  "Спиридон" [
+    label="Спиридон"
+  ]
+  "Станислав" [
+    label="Станислав"
+  ]
+  "Степан" [
+    label="Степан"
+  ]
+  "Сусанна" [
+    label="Сусанна"
+  ]
+  "Таисия" [
+    label="Таисия"
+  ]
+  "Тамара" [
+    label="Тамара"
+  ]
+  "Тарас" [
+    label="Тарас"
+  ]
+  "Татьяна" [
+    label="Татьяна"
+  ]
+  "Тимофей" [
+    label="Тимофей"
+  ]
+  "Тимур" [
+    label="Тимур"
+  ]
+  "Тит" [
+    label="Тит"
+  ]
+  "Тихон" [
+    label="Тихон"
+  ]
+  "Трифон" [
+    label="Трифон"
+  ]
+  "Трофим" [
+    label="Трофим"
+  ]
+  "Улита" [
+    label="Улита"
+  ]
+  "Ульяна" [
+    label="Ульяна"
+  ]
+  "Урбан" [
+    label="Урбан"
+  ]
+  "Урсула" [
+    label="Урсула"
+  ]
+  "Фаддей" [
+    label="Фаддей"
+  ]
+  "Фаина" [
+    label="Фаина"
+  ]
+  "Феврония" [
+    label="Феврония"
+  ]
+  "Федосей" [
+    label="Федосей"
+  ]
+  "Федот" [
+    label="Федот"
+  ]
+  "Феликс" [
+    label="Феликс"
+  ]
+  "Феодора" [
+    label="Феодора"
+  ]
+  "Феоктист" [
+    label="Феоктист"
+  ]
+  "Филат" [
+    label="Филат"
+  ]
+  "Филимон" [
+    label="Филимон"
+  ]
+  "Филипп" [
+    label="Филипп"
+  ]
+  "Фирс" [
+    label="Фирс"
+  ]
+  "Фока" [
+    label="Фока"
+  ]
+  "Фома" [
+    label="Фома"
+  ]
+  "Фотий" [
+    label="Фотий"
+  ]
+  "Фрол" [
+    label="Фрол"
+  ]
+  "Фёдор" [
+    label="Фёдор"
+  ]
+  "Фёкла" [
+    label="Фёкла"
+  ]
+  "Харитон" [
+    label="Харитон"
+  ]
+  "Хрисанф" [
+    label="Хрисанф"
+  ]
+  "Христофор" [
+    label="Христофор"
+  ]
+  "Целестина" [
+    label="Целестина"
+  ]
+  "Эдуард" [
+    label="Эдуард"
+  ]
+  "Элеонора" [
+    label="Элеонора"
+  ]
+  "Элла" [
+    label="Элла"
+  ]
+  "Эмма" [
+    label="Эмма"
+  ]
+  "Эраст" [
+    label="Эраст"
+  ]
+  "Юлиан" [
+    label="Юлиан"
+  ]
+  "Юлия" [
+    label="Юлия"
+  ]
+  "Юрий" [
+    label="Юрий"
+  ]
+  "Юстин" [
+    label="Юстин"
+  ]
+  "Яков" [
+    label="Яков"
+  ]
+  "Якун" [
+    label="Якун"
+  ]
+  "Яна" [
+    label="Яна"
+  ]
+  "Ярослав" [
+    label="Ярослав"
+  ]
+  "Ярослава" [
+    label="Ярослава"
+  ]
+}

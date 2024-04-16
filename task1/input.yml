@@ -1,0 +1,853 @@
+people:
+  Авдей:
+    gender: m
+  Авксентий:
+    gender: m
+  Аврора:
+    gender: f
+  Агапит:
+    gender: m
+  Агафон:
+    gender: m
+  Агафья:
+    gender: f
+  Аглая:
+    gender: f
+  Агриппина:
+    gender: f
+  Аделаида:
+    gender: f
+  Аза:
+    gender: f
+  Акакий:
+    gender: m
+  Акиндин:
+    gender: m
+  Акулина:
+    gender: f
+  Алевтина:
+    gender: f
+  Александр:
+    gender: m
+  Александра:
+    gender: f
+  Алексей:
+    gender: m
+  Алина:
+    gender: f
+  Алиса:
+    gender: f
+  Алла:
+    gender: f
+  Альберт:
+    gender: m
+  Анастасия:
+    gender: f
+  Анатолий:
+    gender: m
+  Ангелина:
+    gender: f
+  Андрей:
+    gender: m
+  Анжела:
+    gender: f
+  Анжелика:
+    gender: f
+  Аникий:
+    gender: m
+  Аникита:
+    gender: m
+  Анна:
+    gender: f
+  Антон:
+    gender: m
+  Антонин:
+    gender: m
+  Антонина:
+    gender: f
+  Анфим:
+    gender: m
+  Анфиса:
+    gender: f
+  Аристарх:
+    gender: m
+  Аркадий:
+    gender: m
+  Арсений:
+    gender: m
+  Артемий:
+    gender: m
+  Артур:
+    gender: m
+  Артём:
+    gender: m
+  Архипп:
+    gender: m
+  Афанасий:
+    gender: m
+  Богдан:
+    gender: m
+  Борис:
+    gender: m
+  Вавила:
+    gender: m
+  Вадим:
+    gender: m
+  Валентин:
+    gender: m
+  Валентина:
+    gender: f
+  Валерий:
+    gender: m
+  Валерия:
+    gender: f
+  Валерьян:
+    gender: m
+  Варвара:
+    gender: f
+  Варлам:
+    gender: m
+  Варсонофий:
+    gender: m
+  Варфоломей:
+    gender: m
+  Василий:
+    gender: m
+  Василиса:
+    gender: f
+  Васса:
+    gender: f
+  Венедикт:
+    gender: m
+  Вениамин:
+    gender: m
+  Вера:
+    gender: f
+  Вероника:
+    gender: f
+  Викентий:
+    gender: m
+  Виктор:
+    gender: m
+  Виктория:
+    gender: f
+  Виссарион:
+    gender: m
+  Виталий:
+    gender: m
+  Владимир:
+    gender: m
+  Владимира:
+    gender: f
+  Владислав:
+    gender: m
+  Владлен:
+    gender: m
+  Влас:
+    gender: m
+  Всеволод:
+    gender: m
+  Вячеслав:
+    gender: m
+  Гавриил:
+    gender: m
+  Галактион:
+    gender: m
+  Галина:
+    gender: f
+  Геласий:
+    gender: m
+  Геннадий:
+    gender: m
+  Георгий:
+    gender: m
+  Герасим:
+    gender: m
+  Герман:
+    gender: m
+  Германн:
+    gender: m
+  Глафира:
+    gender: f
+  Глеб:
+    gender: m
+  Гликерия:
+    gender: f
+  Гордей:
+    gender: m
+  Григорий:
+    gender: m
+  Давид:
+    gender: m
+  Дана:
+    gender: f
+  Данакт:
+    gender: m
+  Даниил:
+    gender: m
+  Дарья:
+    gender: f
+  Демид:
+    gender: m
+  Демьян:
+    gender: m
+  Денис:
+    gender: m
+  Дмитрий:
+    gender: m
+  Донат:
+    gender: m
+  Евгений:
+    gender: m
+  Евгения:
+    gender: f
+  Евграф:
+    gender: m
+  Евдоким:
+    gender: m
+  Евдокия:
+    gender: f
+  Евлалия:
+    gender: f
+  Евлампия:
+    gender: f
+  Евпраксия:
+    gender: f
+  Евсей:
+    gender: m
+  Евстафий:
+    gender: m
+  Евфросиния:
+    gender: f
+  Егор:
+    gender: m
+  Екатерина:
+    gender: f
+  Елена:
+    gender: f
+  Елизавета:
+    gender: f
+  Емельян:
+    gender: m
+  Епистима:
+    gender: f
+  Еремей:
+    gender: m
+  Ермиония:
+    gender: f
+  Ермолай:
+    gender: m
+  Ерофей:
+    gender: m
+  Ефим:
+    gender: m
+  Ефрем:
+    gender: m
+  Жанна:
+    gender: f
+  Ждан:
+    gender: m
+  Зинаида:
+    gender: f
+  Зиновий:
+    gender: m
+  Злата:
+    gender: f
+  Зоя:
+    gender: f
+  Иакинф:
+    gender: m
+  Иван:
+    gender: m
+  Игнатий:
+    gender: m
+  Игорь:
+    gender: m
+  Изот:
+    gender: m
+  Илья:
+    gender: m
+  Инга:
+    gender: f
+  Инесса:
+    gender: f
+  Инна:
+    gender: f
+  Иннокентий:
+    gender: m
+  Иоанна:
+    gender: f
+  Ираида:
+    gender: f
+  Ираклий:
+    gender: m
+  Ирина:
+    gender: f
+  Ириней:
+    gender: m
+  Исаак:
+    gender: m
+  Исидор:
+    gender: m
+  Иуда:
+    gender: m
+  Иулиан:
+    gender: m
+  Ия:
+    gender: f
+  Капитолина:
+    gender: f
+  Капитон:
+    gender: m
+  Карина:
+    gender: f
+  Каролина:
+    gender: f
+  Ким:
+    gender: m
+  Кир:
+    gender: m
+  Кира:
+    gender: f
+  Кирилл:
+    gender: m
+  Клавдия:
+    gender: f
+  Клара:
+    gender: f
+  Климент:
+    gender: m
+  Кондрат:
+    gender: m
+  Конон:
+    gender: m
+  Константин:
+    gender: m
+  Корнилий:
+    gender: m
+  Кронид:
+    gender: m
+  Ксения:
+    gender: f
+  Кузьма:
+    gender: m
+  Куприян:
+    gender: m
+  Лаврентий:
+    gender: m
+  Лада:
+    gender: f
+  Лариса:
+    gender: f
+  Лев:
+    gender: m
+  Леонид:
+    gender: m
+  Леонтий:
+    gender: m
+  Лидия:
+    gender: f
+  Логгин:
+    gender: m
+  Лука:
+    gender: m
+  Лукий:
+    gender: m
+  Лукьян:
+    gender: m
+  Любовь:
+    gender: f
+  Людмила:
+    gender: f
+  Магистриан:
+    gender: m
+  Макар:
+    gender: m
+  Максим:
+    gender: m
+  Мамонт:
+    gender: m
+  Маргарита:
+    gender: f
+  Марина:
+    gender: f
+  Мария:
+    gender: f
+  Марк:
+    gender: m
+  Мартын:
+    gender: m
+  Марфа:
+    gender: f
+  Матвей:
+    gender: m
+  Матрёна:
+    gender: f
+  Мелентий:
+    gender: m
+  Милица:
+    gender: f
+  Мина:
+    gender: m
+  Мирослав:
+    gender: m
+  Мирослава:
+    gender: f
+  Митрофан:
+    gender: m
+  Михаил:
+    gender: m
+  Мстислав:
+    gender: m
+  Надежда:
+    gender: f
+  Назар:
+    gender: m
+  Наталья:
+    gender: f
+  Наум:
+    gender: m
+  Неонилла:
+    gender: f
+  Нестор:
+    gender: m
+  Никандр:
+    gender: m
+  Никанор:
+    gender: m
+  Никита:
+    gender: m
+  Никифор:
+    gender: m
+  Никодим:
+    gender: m
+  Николай:
+    gender: m
+  Никон:
+    gender: m
+  Нина:
+    gender: f
+  Нинель:
+    gender: f
+  Нонна:
+    gender: f
+  Оксана:
+    gender: f
+  Октябрина:
+    gender: f
+  Олег:
+    gender: m
+  Олимпиада:
+    gender: f
+  Ольга:
+    gender: f
+  Онисим:
+    gender: m
+  Онуфрий:
+    gender: m
+  Павел:
+    gender: m
+  Павлина:
+    gender: f
+  Паисий:
+    gender: m
+  Панкратий:
+    gender: m
+  Пантелеймон:
+    gender: m
+  Парфений:
+    gender: m
+  Пафнутий:
+    gender: m
+  Пахомий:
+    gender: m
+  Пелагея:
+    gender: f
+  Пинна:
+    gender: f
+  Платон:
+    gender: m
+  Поликарп:
+    gender: m
+  Полина:
+    gender: f
+  Порфирий:
+    gender: m
+  Потап:
+    gender: m
+  Прасковья:
+    gender: f
+  Пров:
+    gender: m
+  Прокопий:
+    gender: m
+  Протасий:
+    gender: m
+  Прохор:
+    gender: m
+  Пётр:
+    gender: m
+  Рада:
+    gender: f
+  Разумник:
+    gender: m
+  Раиса:
+    gender: f
+  Регина:
+    gender: f
+  Римма:
+    gender: f
+  Рогнеда:
+    gender: f
+  Родион:
+    gender: m
+  Роман:
+    gender: m
+  Ростислав:
+    gender: m
+  Руслан:
+    gender: m
+  Савва:
+    gender: m
+  Савелий:
+    gender: m
+  Самуил:
+    gender: m
+  Светлана:
+    gender: f
+  Святополк:
+    gender: m
+  Святослав:
+    gender: m
+  Севастьян:
+    gender: m
+  Семён:
+    gender: m
+  Серафим:
+    gender: m
+  Серафима:
+    gender: f
+  Сергей:
+    gender: m
+  Сила:
+    gender: m
+  Сильвестр:
+    gender: m
+  Снежана:
+    gender: f
+  Созон:
+    gender: m
+  София:
+    gender: f
+  Софрон:
+    gender: m
+  Спиридон:
+    gender: m
+  Станислав:
+    gender: m
+  Степан:
+    gender: m
+  Сусанна:
+    gender: f
+  Таисия:
+    gender: f
+  Тамара:
+    gender: f
+  Тарас:
+    gender: m
+  Татьяна:
+    gender: f
+  Тимофей:
+    gender: m
+  Тимур:
+    gender: m
+  Тит:
+    gender: m
+  Тихон:
+    gender: m
+  Трифон:
+    gender: m
+  Трофим:
+    gender: m
+  Улита:
+    gender: f
+  Ульяна:
+    gender: f
+  Урбан:
+    gender: m
+  Урсула:
+    gender: f
+  Фаддей:
+    gender: m
+  Фаина:
+    gender: f
+  Феврония:
+    gender: f
+  Федосей:
+    gender: m
+  Федот:
+    gender: m
+  Феликс:
+    gender: m
+  Феодора:
+    gender: f
+  Феоктист:
+    gender: m
+  Филат:
+    gender: m
+  Филимон:
+    gender: m
+  Филипп:
+    gender: m
+  Фирс:
+    gender: m
+  Фока:
+    gender: m
+  Фома:
+    gender: m
+  Фотий:
+    gender: m
+  Фрол:
+    gender: m
+  Фёдор:
+    gender: m
+  Фёкла:
+    gender: f
+  Харитон:
+    gender: m
+  Хрисанф:
+    gender: m
+  Христофор:
+    gender: m
+  Целестина:
+    gender: f
+  Эдуард:
+    gender: m
+  Элеонора:
+    gender: f
+  Элла:
+    gender: f
+  Эмма:
+    gender: f
+  Эраст:
+    gender: m
+  Юлиан:
+    gender: m
+  Юлия:
+    gender: f
+  Юрий:
+    gender: m
+  Юстин:
+    gender: m
+  Яков:
+    gender: m
+  Якун:
+    gender: m
+  Яна:
+    gender: f
+  Ярослав:
+    gender: m
+  Ярослава:
+    gender: f
+
+families:
+  - parents: [Акакий, Аза]
+    children: [Анфиса, Ольга]
+  - parents: [Демьян, Евдокия]
+    children: [Иоанна, Прокопий]
+  - parents: [Никодим, Улита]
+    children: [Владимира, Ираида, Каролина, Лидия]
+  - parents: [Гавриил, Ульяна]
+    children: [Инга, Серафима]
+  - parents: [Панкратий, Дарья]
+    children: []
+  - parents: [Лаврентий, Элла]
+    children: [Фёдор, Хрисанф]
+  - parents: [Онисим, Васса]
+    children: [Алиса, Семён]
+  - parents: [Семён, Лада]
+    children: [Ростислав, Софрон]
+  - parents: [Ростислав, Александра]
+    children: [Макар, Снежана]
+  - parents: [Богдан, Мария]
+    children: [Протасий, Целестина]
+  - parents: [Изот, Лариса]
+    children: [Анфим, Владислав, Влас, Евлампия, Жанна, Зоя]
+  - parents: [Анатолий, Жанна]
+    children: [Аркадий, Надежда, Пётр, Феликс, Фёкла]
+  - parents: [Куприян, Пелагея]
+    children: [Харитон]
+  - parents: [Варлам, Яна]
+    children: [Виссарион]
+  - parents: [Фирс, Евгения]
+    children: [Виктория, Матвей, Потап]
+  - parents: [Тихон, Серафима]
+    children: [Анастасия, Поликарп, Порфирий]
+  - parents: [Митрофан, Наталья]
+    children: [Анатолий, Изот, Любовь, Никодим, София, Трофим, Фотий]
+  - parents: [Еремей, Евпраксия]
+    children: [Неонилла]
+  - parents: [Мстислав, Аглая]
+    children: []
+  - parents: [Данакт, Валерия]
+    children: [Варлам, Евстафий, Роман, Эдуард]
+  - parents: [Варсонофий, Инна]
+    children: [Валерьян, Дана, Евлалия, Инна, Фаддей]
+  - parents: [Ярослав, Ярослава]
+    children: [Акакий, Вениамин, Мирослава, Оксана, Святополк]
+  - parents: [Иулиан, Евфросиния]
+    children: [Агафья, Акиндин, Феврония]
+  - parents: [Лукий, Урсула]
+    children: [Аглая, Аза, Федот]
+  - parents: [Иуда, Пинна]
+    children: [Вадим, Иакинф]
+  - parents: [Серафим, Нина]
+    children: [Анжелика, Антонина, Давид, Сила, Фома]
+  - parents: [Капитон, Гликерия]
+    children: []
+  - parents: [Павел, Неонилла]
+    children: [Александра, Мария, Никанор]
+  - parents: [Ермолай, Виктория]
+    children: [Анна, Гликерия, Злата, Яков]
+  - parents: [Игорь, Людмила]
+    children: [Созон, Станислав, Тимофей]
+  - parents: [Максим, Марфа]
+    children: [Герасим, Паисий, Серафим]
+  - parents: [Парфений, Элеонора]
+    children: [Евфросиния, Полина, Юрий]
+  - parents: [Урбан, Екатерина]
+    children: [Алина, Вавила, Лукьян, Павлина]
+  - parents: [Иннокентий, Феодора]
+    children: [Аврора, Евдокия, Игнатий, Мстислав]
+  - parents: [Фаддей, Епистима]
+    children: [Клавдия, Максим, Михаил, Родион, Савва, Филипп, Ярослав]
+  - parents: [Илья, Татьяна]
+    children: [Вероника, Мина, Прохор]
+  - parents: [Егор, Анжела]
+    children: [Алла, Богдан, Светлана, Фрол]
+  - parents: [Макар, Раиса]
+    children: [Галактион, Епистима, Кондрат, Феоктист]
+  - parents: [Юрий, Галина]
+    children: [Агриппина, Евпраксия]
+  - parents: [Игнатий, Антонина]
+    children: [Алевтина]
+  - parents: [Фома, Варвара]
+    children: [Артур, Викентий, Елена, Савелий, Фирс]
+  - parents: [Геннадий, Ираида]
+    children: [Константин, Раиса, Сильвестр]
+  - parents: [Влас, Римма]
+    children: [Дмитрий, Зинаида, Наум, Никифор, Юлиан]
+  - parents: [Виталий, Вера]
+    children: [Анжела, Онисим, Рада]
+  - parents: [Наум, Валентина]
+    children: [Демьян, Мелентий, Тит]
+  - parents: [Емельян, Ксения]
+    children: [Инесса, Иуда, Кронид, Леонтий, Филат, Юлия]
+  - parents: [Корнилий, Снежана]
+    children: [Ангелина, Владимир, Вячеслав, Иулиан, Лукий, Пинна]
+  - parents: [Разумник, Елизавета]
+    children: [Ксения, Парфений, Руслан]
+  - parents: [Кир, Сусанна]
+    children: []
+  - parents: [Лука, Павлина]
+    children: [Агапит, Геннадий, Ермолай, Ефим]
+  - parents: [Михаил, Акулина]
+    children: [Логгин, Сусанна]
+  - parents: [Кирилл, Инга]
+    children: [Кузьма, Самуил]
+  - parents: [Лукьян, Эмма]
+    children: [Евгений, Никон, Онуфрий, Пафнутий, Сергей, Таисия]
+  - parents: [Назар, Кира]
+    children: [Артемий, Гордей, Якун]
+  - parents: [Евгений, Надежда]
+    children: [Екатерина]
+  - parents: [Лев, Юлия]
+    children: [Кирилл, Лада, Матрёна, Татьяна]
+  - parents: [Алексей, Ия]
+    children: [Платон]
+  - parents: [Роман, Нонна]
+    children: [Альберт, Вера, Зиновий, Марфа, Регина]
+  - parents: [Валерьян, Глафира]
+    children: [Венедикт, Глафира, Октябрина, Ульяна]
+  - parents: [Пантелеймон, Полина]
+    children: [Георгий, Леонид, Назар, Фока]
+  - parents: [Зиновий, София]
+    children: [Ярослава]
+  - parents: [Фрол, Дана]
+    children: [Святослав]
+  - parents: [Мирослав, Оксана]
+    children: [Александр, Дарья, Денис, Тимур]
+  - parents: [Авдей, Анастасия]
+    children: [Марина, Урбан]
+  - parents: [Якун, Карина]
+    children: [Ириней, Улита]
+  - parents: [Никита, Любовь]
+    children: [Клара, Лев, Филимон]
+  - parents: [Аристарх, Анна]
+    children: [Авксентий, Валерий]
+  - parents: [Константин, Зоя]
+    children: [Авдей, Илья, Капитолина, Элеонора]
+  - parents: [Яков, Клавдия]
+    children: [Аристарх, Валентин, Лука, Тамара]
+  - parents: [Никон, Мирослава]
+    children: [Акулина, Германн, Даниил, Игорь]
+  - parents: [Савва, Агафья]
+    children: [Борис]
+  - parents: [Сила, Олимпиада]
+    children: [Герман, Пелагея]
+  - parents: [Виктор, Инесса]
+    children: [Маргарита, Марк]
+  - parents: [Гордей, Алевтина]
+    children: [Виталий]
+  - parents: [Борис, Иоанна]
+    children: [Архипп, Яна]
+  - parents: [Ерофей, Ольга]
+    children: [Аникита, Гавриил, Мамонт]
+  - parents: [Пётр, Нинель]
+    children: []
+  - parents: [Мамонт, Матрёна]
+    children: [Олимпиада, Фаина]
+  - parents: [Георгий, Рада]
+    children: [Аделаида, Аникий, Емельян, Ия, Митрофан, Пров]
+  - parents: [Кондрат, Анфиса]
+    children: [Ерофей, Иннокентий, Карина, Ким, Федосей]
+  - parents: [Дмитрий, Фёкла]
+    children: [Варвара, Евграф, Магистриан, Христофор]
+  - parents: [Альберт, Ирина]
+    children: [Арсений, Глеб, Данакт, Урсула]
+  - parents: [Даниил, Алина]
+    children: [Милица, Тарас]
+  - parents: [Геласий, Алиса]
+    children: [Лариса, Тихон]
+  - parents: [Поликарп, Алла]
+    children: [Евдоким, Исаак, Никандр]
+  - parents: [Антонин, Марина]
+    children: [Артём, Ермиония, Нина, Степан, Трифон, Эраст]
+  - parents: [Евсей, Зинаида]
+    children: [Донат, Капитон]
+  - parents: [Мина, Вероника]
+    children: []
+  - parents: [Герман, Фаина]
+    children: [Андрей, Климент, Лаврентий, Юстин]
+  - parents: [Ефрем, Евлалия]
+    children: [Елизавета, Кира, Пахомий]
+  - parents: [Варфоломей, Милица]
+    children: [Агафон, Валентина, Геласий, Еремей, Олег, Эмма]
+  - parents: [Ждан, Евлампия]
+    children: []
+  - parents: [Конон, Каролина]
+    children: []
+  - parents: [Андрей, Агриппина]
+    children: []
+  - parents: [Порфирий, Ермиония]
+    children: [Иван, Нонна, Спиридон]
+  - parents: [Евстафий, Феврония]
+    children: [Василиса]
+  - parents: [Ираклий, Клара]
+    children: [Афанасий, Людмила, Элла]
+  - parents: [Герасим, Таисия]
+    children: [Антонин, Григорий]
+  - parents: [Денис, Лидия]
+    children: [Евсей, Ирина, Кир, Мирослав, Никита]
+  - parents: [Олег, Тамара]
+    children: [Алексей, Василий]
