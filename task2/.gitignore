@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+tmp/
+=======
+.DS_Store
+tmp/*
+test/
+examples/
+images/*
+>>>>>>> refs/remotes/origin/main
